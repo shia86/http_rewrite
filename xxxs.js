@@ -5,4 +5,4 @@ var params = new URLSearchParams(url.search);
 
 url.search = params.toString();
 var modifiedUrl = url.toString();
-$done({url:$modifiedUrl});
+$done({url : modifiedUrl});
