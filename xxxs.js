@@ -1,2 +1,2 @@
-console.log($request);
+console.log(JSON.stringify($request));
 $done({});
