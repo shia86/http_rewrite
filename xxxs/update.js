@@ -1,4 +1,4 @@
-var body = new URL($request.body);
+var body = $request.body;
 var params = new URLSearchParams(body);
 var modifiedBody = body;
 
