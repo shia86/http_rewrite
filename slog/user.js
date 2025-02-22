@@ -4,8 +4,6 @@ try {
     console.log(resp['user_roles'])
     resp['user_roles'][0] = "platinum"
     resp['expiration'] = 2055649382
-    var accounts = resp['account_list']
-    accounts[5]['account_type'] = 2
 } catch (error) {
     console.log(error)
 }
